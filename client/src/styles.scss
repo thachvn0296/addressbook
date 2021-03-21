@@ -1,0 +1,33 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body {
+    padding: 15px;
+}
+
+// Nav bar
+.navbar {
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #008083;
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        li {
+            a {
+                color: #fff !important;
+            }
+        }
+    }
+}
+
+// Content
+.content {
+    margin-top: 80px;
+}
